@@ -5,13 +5,14 @@
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-contact.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-		<title>Barbearia Alura</title>
+		<title>Barbearia Alura - Contato</title>
 	</head>
 	<body>
 		<header>
 			<div class="caixa">
-				<h1><img src="img/logo.png" alt="Logo da Barbearia Alura"></h1>
+				<h1><a href="index.html"><img src="img/logo.png" alt="Logo da Barbearia Alura"></a></h1>
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
@@ -21,10 +22,8 @@
 				</nav>	
 			</div>
 		</header>
-
-	<main>
-
-		<form>
+	<main class="contact">
+		<form class="form">
 			<label for="nomesobrenome">Nome e Sobrenome</label>
 			<input type="text" id="nomesobrenome" class="input-padrao" required="nomesobrenome">		
 			
@@ -38,7 +37,7 @@
 			<label for="mensagem">Mensagem</label>
 			<textarea cols="70" rows="10" name="mensagem" class="input-padrao"></textarea>
 
-		<fieldset>
+		<fieldset class="betterContact">
 			<legend>Qual a melhor forma de contato?</legend>
 
 			<label for="radio-telefone">
