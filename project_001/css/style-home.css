@@ -1,6 +1,3 @@
-body {
-	
-}
 .principal{
 
 	background: #CCCCCC;
@@ -43,6 +40,7 @@ em strong {
 }
 
 ul {
+
 	display: inline-block;
 	vertical-align: top;
 	width: 20%;
