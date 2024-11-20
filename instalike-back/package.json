@@ -1,8 +1,8 @@
 {
-  "name": "",
+  "name": "instabytes",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Project node.js immersion back-end Alura",
+  "main": "",
   "type": "module",
   "license": "AGPL-version-3.0",
   "private": false,
@@ -18,17 +18,17 @@
   "bugs": "",
   "keywords": [],
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Elisandro Santolin",
+    "email": "santolinelisandro@gmail.com"
   },
   "contributors": [],
   "scripts": {
-    "dev": "",
+    "dev": "node --watch --env-file=.env server.js",
     "test": ""
   },
   "dependencies": {
     "dotenv": "^16.4.5",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0"
   }
 }

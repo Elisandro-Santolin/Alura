@@ -1,10 +1,10 @@
 import express from 'express';
- 
-const app = express();
-app.listen(3000, () => {
-    console.log('Server listening');
-});
+import routes from "./src/routes/postRoutes.js";
 
-app.get('/', (req, res) => {
-    res.status(200).send('OK');
+const app = express();
+
+routes(app);
+
+app.listen(3000, () => {
+    console.log('Server listening.');
 });
