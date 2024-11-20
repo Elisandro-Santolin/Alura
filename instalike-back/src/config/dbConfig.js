@@ -7,7 +7,7 @@ export default async function connectToCluster(DRIVER_DB) {
         mongoClient = new MongoClient(DRIVER_DB);
         console.log('Connecting to MongoDB Atlas cluster...');
         await mongoClient.connect();
-        console.log('Successfully connected to MongoDB Atlas!');
+        console.log('Successfully connected to MongoDB Atlas!\n');
  
         return mongoClient;
     } catch (error) {
